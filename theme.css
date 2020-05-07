@@ -1,0 +1,86 @@
+
+body
+{
+  color: #727272; 
+  background-color:#fff;
+  }
+  
+section{border:1px black solid;width:50%;margin:auto; color:black;text-align:center;}
+article{border:1px black solid;display:block;min-height:40px;padding-top:3px;}
+article *{display:inline;}
+article p{margin-left:10px;}
+
+.color,
+.food-item .price,
+.order-menu .food-item.price-right header .quantity .minus,
+.order-menu .food-item.price-right header .quantity .plus,
+.food-item.active header h3,
+.order-menu-wrapper .close-order {
+  color: #ff9c00; }
+.order-footer *{color:black;font-size:15px;}
+
+.divv{width:50%;margin:auto;}
+form *{margin:5px 5px 5px 5px;}
+
+#navbar{
+	background:lightblue;
+	color:black;
+	padding-top:30px;
+	min-height:70px;
+	border-bottom:black 3px solid;
+	
+}
+#navbar a{
+	
+	color:black;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:20px;
+	font-weight:bold
+}
+#order-summary {
+  list-style-type: none;
+}
+#navbar li{
+	float:left;
+	display:inline;
+	padding:0 20px 0 20px;
+}
+
+#navbar #branding h1{margin:15px 0 0 15px;float:left;}
+#navbar #branding img{width:50px;float:left; margin-right:8px;}
+#navbar nav{float:right;margin-top:12px;}
+#navbar .current a{color:#ff9c00;font-weight:bold;}
+#navbar a:hover{color:gray;font-weight:bold;}
+
+.container{
+	width:90%;
+	margin:auto;
+	overflow:hidden;
+	
+}
+#showcase{
+	width:100%;
+	min-height:800px;
+	background:lightblue;
+	text-align:center;
+	background-image:url("pica2.jpg");
+	color:white;
+    margin-bottom:50px;
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+#showcase h1{font-size:50px;margin-top:100px;}
+footer{
+	padding:20px;
+	margin-top:20px;
+	color:black;
+	background-color:lightblue;
+	text-align:center;
+}
+#boxes{width:100%;}
+#boxes .box{float:left;width:45%;padding:10px;text-align:center;}
+#boxes .box img{width:400px;height:300px;}
+
+
+
